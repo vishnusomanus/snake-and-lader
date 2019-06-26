@@ -41,6 +41,7 @@ p#result span{font-weight:bold; color:#f30; margin:6px}
     -webkit-box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.46);
 -moz-box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.46);
 box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.46);
+transition: all 0.5s;
 }
  span.user.user1 {
     background: red;
