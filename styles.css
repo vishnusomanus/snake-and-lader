@@ -11,7 +11,12 @@ table#bg-table {
     background-size: 100%;
 }
 
-.wrap{width:90px; height:90px; margin:120px auto 30px auto; position:relative} 
+.wrap{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 10px auto;
+} 
 .dice{width:90px; height:90px; background:url(dice.png) no-repeat;} 
 .dice_1{background-position:-5px -4px} 
 .dice_2{background-position:-5px -107px} 
@@ -49,6 +54,31 @@ box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.46);
  span.user.user4 {
     background: yellow;
 }
+.wrap.user1 {
+    background: red;
+}
+.wrap.user2 {
+    background: blue;
+}
+.wrap.user3 {
+    background: green;
+}
+.wrap.user4 {
+    background: yellow;
+}
 .game_cont {
-    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+tr:nth-child(odd) td.col:nth-child(odd) {
+    color: #fff;
+}
+tr:nth-child(odd) td.col:nth-child(even) {
+    color: #000;
+}
+tr:nth-child(even) td.col:nth-child(even) {
+    color: #fff;
+}
+tr:nth-child(even) td.col:nth-child(odd) {
+    color: #000;
 }
