@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="custom.js"></script>
+</head>
+<body>
+
+<div class="container">
+	<div class="game_cont">
+
+	<div class="wrap">
+   			<div id="dice" class="dice dice_1"></div>
+        </div>
+        <p id="result">Please click above dice!</p>	
+
+
+<table id="bg-table">
+<tbody><tr>
+    <td class="col col_no_100">100</td>
+    <td class="col col_no_99">99</td>
+    <td class="col col_no_98">98</td>
+    <td class="col col_no_97"  data-goto="61">97</td>
+    <td class="col col_no_96">96</td>
+    <td class="col col_no_95">95</td>
+    <td class="col col_no_94">94</td>
+    <td class="col col_no_93">93</td>
+    <td class="col col_no_92">92</td>
+    <td class="col col_no_91"  data-goto="73">91</td>
+  </tr>
+  <tr>
+    <td class="col col_no_81">81</td>
+    <td class="col col_no_82">82</td>
+    <td class="col col_no_83">83</td>
+    <td class="col col_no_84">84</td>
+    <td class="col col_no_85">85</td>
+    <td class="col col_no_86">86</td>
+    <td class="col col_no_87">87</td>
+    <td class="col col_no_88">88</td>
+    <td class="col col_no_89">89</td>
+    <td class="col col_no_90">90</td>
+  </tr>
+  <tr>
+    <td class="col col_no_80">80</td>
+    <td class="col col_no_79">79</td>
+    <td class="col col_no_78">78</td>
+    <td class="col col_no_77">77</td>
+    <td class="col col_no_76"  data-goto="54">76</td>
+    <td class="col col_no_75">75</td>
+    <td class="col col_no_74">74</td>
+    <td class="col col_no_73">73</td>
+    <td class="col col_no_72">72</td>
+    <td class="col col_no_71">71</td>
+  </tr>
+  <tr>
+    <td class="col col_no_61">61</td>
+    <td class="col col_no_62">62</td>
+    <td class="col col_no_63">63</td>
+    <td class="col col_no_64"  data-goto="83">64</td>
+    <td class="col col_no_65">65</td>
+    <td class="col col_no_66">66</td>
+    <td class="col col_no_67">67</td>
+    <td class="col col_no_68">68</td>
+    <td class="col col_no_69">69</td>
+    <td class="col col_no_70">70</td>
+  </tr>
+  <tr>
+    <td class="col col_no_60">60</td>
+    <td class="col col_no_59">59</td>
+    <td class="col col_no_58"  data-goto="72">58</td>
+    <td class="col col_no_57">57</td>
+    <td class="col col_no_56">56</td>
+    <td class="col col_no_55">55</td>
+    <td class="col col_no_54">54</td>
+    <td class="col col_no_53">53</td>
+    <td class="col col_no_52">52</td>
+    <td class="col col_no_51"  data-goto="10">51</td>
+  </tr>
+  <tr>
+    <td class="col col_no_41">41</td>
+    <td class="col col_no_42">42</td>
+    <td class="col col_no_43">43</td>
+    <td class="col col_no_44">44</td>
+    <td class="col col_no_45">45</td>
+    <td class="col col_no_46">46</td>
+    <td class="col col_no_47">47</td>
+    <td class="col col_no_48">48</td>
+    <td class="col col_no_49">49</td>
+    <td class="col col_no_50">50</td>
+  </tr>
+  <tr>
+    <td class="col col_no_40">40</td>
+    <td class="col col_no_39">39</td>
+    <td class="col col_no_38"  data-goto="20">38</td>
+    <td class="col col_no_37">37</td>
+    <td class="col col_no_36">36</td>
+    <td class="col col_no_35">35</td>
+    <td class="col col_no_34">34</td>
+    <td class="col col_no_33">33</td>
+    <td class="col col_no_32">32</td>
+    <td class="col col_no_31">31</td>
+  </tr>
+  <tr>
+    <td class="col col_no_21">21</td>
+    <td class="col col_no_22">22</td>
+    <td class="col col_no_23">23</td>
+    <td class="col col_no_24">24</td>
+    <td class="col col_no_25">25</td>
+    <td class="col col_no_26">26</td>
+    <td class="col col_no_27">27</td>
+    <td class="col col_no_28">28</td>
+    <td class="col col_no_29">29</td>
+    <td class="col col_no_30">30</td>
+  </tr>
+  <tr>
+    <td class="col col_no_20">20</td>
+    <td class="col col_no_19">19</td>
+    <td class="col col_no_18">18</td>
+    <td class="col col_no_17">17</td>
+    <td class="col col_no_16">16</td>
+    <td class="col col_no_15">15</td>
+    <td class="col col_no_14"  data-goto="49">14</td>
+    <td class="col col_no_13">13</td>
+    <td class="col col_no_12">12</td>
+    <td class="col col_no_11">11</td>
+  </tr>
+  <tr>
+    <td class="col col_no_1">
+    	1 
+    	<span class="user user1"></span>
+    	<span class="user user2"></span>
+    	<span class="user user3"></span>
+    	<span class="user user4"></span>
+    </td>
+    <td class="col col_no_2">2</td>
+    <td class="col col_no_3">3</td>
+    <td class="col col_no_4">4</td>
+    <td class="col col_no_5" data-goto="58">5</td>
+    <td class="col col_no_6">6</td>
+    <td class="col col_no_7">7</td>
+    <td class="col col_no_8">8</td>
+    <td class="col col_no_9">9</td>
+    <td class="col col_no_10">10</td>
+  </tr>
+</tbody>
+</table>		
+	</div>
+</div>
+
+</body>
+
+
+</html>
